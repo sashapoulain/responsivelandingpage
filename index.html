@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Şeyma Yılmaz | Frontend Developer">
+    <meta name="description" content="Şeyma Yılmaz | Frontend Developer">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <!-- telefon -->
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+    <title>Şeyma Yılmaz | Landing Page</title>
+</head>
+
+<body>
+
+    <header class="bg-midnight">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="text-bold text-white heading-small">Şeyma YILMAZ</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <section id="home">
+        <img src="img/300.png" alt="Sasha Poulain as Seyma Yilmaz">
+        <div class="name text-center">
+            <h2 class="text-center heading-big">Şeyma YILMAZ</h2>
+            <p>I.T.Manager | FrontEnd Developer</p>
+        </div>
+        <a href="#blog" class="btn-dark-blue btn">My Blog</a>
+    </section>
+    <section id="about" class="bg-midnight">
+        <h3 class="heading-medium text-center text-white">About</h3>
+        <div class="items text-white">
+            <article class="item">
+                <i class="fa-solid fa-icons"></i>
+                <h3>Article About My Passions</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, accusamus!</p>
+            </article>
+            <article class="item">
+                <i class="fa-solid fa-dog"></i>
+                <h3>Article About My Bff</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, placeat.</p>
+            </article>
+            <article class="item">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Article About My Job Issues</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, sunt!</p>
+            </article>
+        </div>
+    </section>
+    <section id="blog">
+        <!-- id= blog:courses -->
+        <h3 class="text-center heading-medium">Blog</h3>
+        <div class="container">
+            <div class="blog-area">
+                <!-- class:courses:blog-area -->
+                <div class="blog">
+                    <!-- class course:blog -->
+                    <div class="blog-image">
+                        <img src="img/camp.jpg" alt="Camping">
+                        <span>camping</span>
+                    </div>
+                    <div class="blog-info">
+                        <div class="title">Camping must be blue and green!</div>
+                        <div class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non eos tenetur quo id corrupti neque cupiditate accusantium obcaecati nostrum quas voluptatum perspiciatis molestias suscipit veniam, debitis distinctio cumque earum ratione
+                            iusto voluptas eveniet magnam provident atque. Ipsam, cupiditate! Itaque nobis corrupti officia, obcaecati autem aperiam! Voluptatibus placeat perspiciatis eos dolorum in nulla quis excepturi debitis voluptatem harum, rerum
+                            expedita fuga!</div>
+                        <div class="instructor">Şeyma Yılmaz</div>
+                        <div class="rating">5</div>
+                    </div>
+                </div>
+                <div class="blog">
+                    <div class="blog-image">
+                        <img src="img/loveistheold.jpg" alt="Love">
+                        <span>love</span>
+                    </div>
+                    <div class="blog-info">
+                        <div class="title">Love is the old magic</div>
+                        <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum libero a unde aperiam, aspernatur cum ipsa possimus inventore incidunt corporis minima nemo odio quibusdam facilis. Nisi, id molestias? Ipsa incidunt esse odio nihil
+                            rerum. Magni recusandae fugit sunt pariatur nihil culpa dolor molestiae quis iste! Tempore minus natus reprehenderit nostrum.</div>
+                        <div class="instructor">Şeyma Yılmaz</div>
+                        <div class="rating">5</div>
+                    </div>
+                </div>
+                <div class="blog">
+                    <div class="blog-image">
+                        <img src="img/coffee.jpg" alt="Coffee">
+                        <span>coffee</span>
+                    </div>
+                    <div class="blog-info">
+                        <div class="title">Coffe is the new love</div>
+                        <div class="description">Lorem ipsum dolor sit amet.</div>
+                        <div class="instructor">Sasha Poulain</div>
+                        <div class="rating">5</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contact" class="bg-midnight">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium text-white">Contact me!</h4>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Your name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="text" name="email" id="email" placeholder="abc@xyz.com" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea name="message" id="message" placeholder="Your message..." class="form-control" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-block">Send it</button>
+            </form>
+            <ul>
+                <li><a href="https://www.instagram.com/sashapoulain/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/sashapoulain"><i class="fa-brands fa-twitter-square"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/%C5%9Feyma-y%C4%B1lmaz-613bb5186/"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+
+    </footer>
+</body>
+
+</html>

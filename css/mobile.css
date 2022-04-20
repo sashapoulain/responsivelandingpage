@@ -1,0 +1,19 @@
+#navbar {
+    flex-direction: column;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    overflow: hidden;
+    height: 80px;
+}
+
+#about .items {
+    flex-direction: column;
+}
+
+#about .items .item {
+    width: 100%;
+}
+
+.blog-area .blog {
+    flex-direction: column;
+}

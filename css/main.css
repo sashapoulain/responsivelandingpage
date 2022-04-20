@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*navbar*/
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 0.5rem;
+}
+
+#navbar ul li a:hover {
+    background: #c3cfd9;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+/*home*/
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #c3cfd9;
+}
+
+#home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+#home .name h2 {
+    margin-bottom: 0.5rem;
+}
+
+#home .name p {
+    opacity: 0.6;
+}
+
+
+/*about*/
+
+#about {
+    padding: 1.25rem;
+}
+
+#about .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about .items .item {
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#about .items .item:hover {
+    color: #c7eaff;
+    opacity: 0.9;
+}
+
+
+/*blog*/
+
+#blog {
+    color: black;
+    padding: 1rem;
+}
+
+.blog-area {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.blog-area .blog {
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.blog-area .blog .blog-image {
+    margin-right: 0.5rem;
+    position: relative;
+}
+
+.blog-area .blog .blog-image img {
+    border-radius: 4px;
+    width: 350px;
+    height: 200px;
+}
+
+.blog-area .blog .blog-image span {
+    background: palevioletred;
+    color: white;
+    padding: 0.25rem;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.blog-area .blog .blog-info .title {
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.blog-area .blog .blog-info .description {
+    letter-spacing: 1.2px;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+
+.blog-area .blog .blog-info .instructor {
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+
+.blog-area .blog .blog-info .rating {
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+
+
+/*contact*/
